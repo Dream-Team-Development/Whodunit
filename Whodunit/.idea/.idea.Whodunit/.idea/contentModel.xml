@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Lizzie\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lizzie\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Whodunit.-625744238.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lizzie\Documents\Whodunit\Whodunit" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Animations" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Materials" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Media" t="Include">
+          <e p="Audio" t="Include">
+            <e p="dummy.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Prefabs" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Navmesh" t="Include">
+            <e p="dummy.txt" t="Include" />
+            <e p="MoveNavmeshAgent.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Sprites" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Whodunit.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

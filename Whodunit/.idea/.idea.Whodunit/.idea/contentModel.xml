@@ -30,6 +30,7 @@
           <e p="Navmesh" t="Include">
             <e p="dummy.txt" t="Include" />
             <e p="MoveNavmeshAgent.cs" t="Include" />
+            <e p="Room.cs" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">

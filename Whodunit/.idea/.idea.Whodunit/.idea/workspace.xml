@@ -30,7 +30,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8cdd23-efc8-4ae0-a37a-8aedcff747f4" name="Default Changelist" comment="" />
+    <list default="true" id="ab8cdd23-efc8-4ae0-a37a-8aedcff747f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Whodunit/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Whodunit/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Whodunit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Whodunit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Navmesh.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Navmesh.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Navmesh/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Navmesh/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Navmesh.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Navmesh.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Navmesh/MoveNavMeshAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Navmesh/MoveNavMeshAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/09/096b8bd656cdcefe94fa7f9ea19fb144" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/18/18128a0d20c805956fbe6d4bc9a2e1d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1a/1a71075e413ca3fc85b4e36f7a368b13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/26/26ecc7b3023caf6a598404b2ccaddc5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/277efd02a62f37bf7adbc295463095a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5c/5cac06c4e636496cc77e265ef14c552b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5f66a4f1fe8d5868134f61ffcfa3b747" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/84fd1c495db7a4819f407d8c66c773ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8b/8b91fa7956fc2f3ed3820531cd0b2842" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d49bcc11b0c0017ef9ba38181149c5b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8f864d5072aaceb218241d532b3f1487" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a5/a5b457f229700c8e2b304eb5c7e882cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/aa/aacd5fad1f06002a3235e305ff78e5bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d9def1968559cd98df1fc35389666681" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/dc/dc88b7f0cbbab8d44a9c5ed3f495ee13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ef/efe740ecf37ec0e5a85e822c6d3e1025" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f6/f623eb903cdde9acced6a0f914b519ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fc1b10804f9e02ab17ba8d5adc4aa91c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/231969-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/231969-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/3c9913-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/3c9913-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +76,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMesh/MoveNavMeshAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMesh/Room.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Navmesh/MoveNavmeshAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Navmesh/MoveNavMeshAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NavMesh/MoveNavMeshAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NavMesh/Room.cs" />
       </list>
     </option>
   </component>
@@ -59,6 +96,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -90,6 +128,9 @@
       <option name="presentableId" value="Default" />
       <updated>1591718868931</updated>
       <workItem from="1591718874568" duration="1711000" />
+      <workItem from="1592039708580" duration="482000" />
+      <workItem from="1592040207281" duration="617000" />
+      <workItem from="1592082393468" duration="7960000" />
     </task>
     <servers />
   </component>
@@ -108,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -117,5 +159,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591718927430" />
+    <state x="707" y="236" key="search.everywhere.popup" timestamp="1592082640152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="236" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592082640152" />
   </component>
 </project>

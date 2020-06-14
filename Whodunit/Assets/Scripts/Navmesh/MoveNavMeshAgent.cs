@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace NavMesh
 {
@@ -8,30 +10,41 @@ namespace NavMesh
     [RequireComponent(typeof(NavMeshAgent))]
     public class MoveNavMeshAgent : MonoBehaviour
     {
-        [Header("NavMesh")]
-        public Vector3 targetLocation;
-        [SerializeField] private float agentSpeed = 2; // Speed should be included from character script
-        private NavMeshAgent _agent;
+        private enum NpcState { Idle, Moving }
         
+        [Header("NavMesh")]
+        [SerializeField] private float agentSpeed = 2; // Speed should be included from character script
+        private Vector3 _targetLocation;
+        private NavMeshAgent _agent;
+
         // These variables here only for testing
         // Character common rooms should be held in character personality scripts
         [Header("Character")]
         [SerializeField] private List<Room> commonRooms = new List<Room>();
+        private NpcState _state;
 
-        private void Start()
+    private void Start()
         {
             if(GetComponent<NavMeshAgent>()) _agent = GetComponent<NavMeshAgent>();
             _agent.speed = agentSpeed;
+            _agent.stoppingDistance = 1;
 
-            targetLocation = GenerateRandomDestination();
+            _targetLocation = GenerateRandomDestination();
+            _state = NpcState.Moving;
         }
 
         private void Update()
         {
-            if (_agent.remainingDistance <= _agent.stoppingDistance)
+            switch (_state)
             {
-                targetLocation = GenerateRandomDestination();
-                MoveAgentTo(targetLocation);
+                case NpcState.Idle:
+                    StartCoroutine(PauseInLocation());
+                    break;
+                
+                case  NpcState.Moving:
+                    if (_agent.remainingDistance <= _agent.stoppingDistance)
+                        _state = NpcState.Idle;
+                    break;
             }
         }
 
@@ -51,7 +64,16 @@ namespace NavMesh
             var zLowerBounds = targetArea.z - (targetRoom.RoomBounds.size.z / 2);
             var zUpperBounds = targetArea.z + (targetRoom.RoomBounds.size.z / 2);
 
-            return new Vector3(Random.Range(xLowerBounds, xUpperBounds), targetLocation.y, Random.Range(zLowerBounds, zUpperBounds));
+            return new Vector3(Random.Range(xLowerBounds, xUpperBounds), _targetLocation.y, Random.Range(zLowerBounds, zUpperBounds));
+        }
+
+        private IEnumerator PauseInLocation()
+        {
+            yield return new WaitForSeconds(Random.Range(1f, 10f));
+
+            _targetLocation = GenerateRandomDestination();
+            MoveAgentTo(_targetLocation);
+            _state = NpcState.Moving;
         }
     }
 }

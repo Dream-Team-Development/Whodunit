@@ -20,15 +20,17 @@
         <e p="Models" t="Include">
           <e p="dummy.txt" t="Include" />
         </e>
-        <e p="Prefabs" t="Include">
-          <e p="dummy.txt" t="Include" />
-        </e>
         <e p="Resources" t="Include">
           <e p="dummy.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Actors" t="Include">
+            <e p="Player" t="Include">
+              <e p="MouseLook.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+          </e>
           <e p="Navmesh" t="Include">
-            <e p="dummy.txt" t="Include" />
             <e p="MoveNavmeshAgent.cs" t="Include" />
             <e p="Room.cs" t="Include" />
           </e>

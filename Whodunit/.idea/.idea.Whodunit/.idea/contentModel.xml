@@ -4,9 +4,13 @@
     <e p="C:\Users\VeronicaMcHumpinSlut\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\VeronicaMcHumpinSlut\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Whodunit.1016775830.00" t="ExcludeRecursive" />
     <e p="D:\VeronicaMcHumpinSlut\Documents\Whodunit\Whodunit" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Animations" t="Include">
+          <e p="dummy.txt" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
           <e p="dummy.txt" t="Include" />
         </e>
         <e p="Materials" t="Include">
@@ -30,8 +34,13 @@
           <e p="Controller" t="Include">
             <e p="InteractionTestController.cs" t="Include" />
           </e>
+          <e p="Editor" t="Include">
+            <e p="dummy.txt" t="Include" />
+            <e p="FieldOfViewEditor.cs" t="Include" />
+          </e>
           <e p="Interaction" t="Include">
             <e p="CharacterInteraction.cs" t="Include" />
+            <e p="FieldOfView.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
             <e p="InteractType.cs" t="Include" />
             <e p="PlayerState.cs" t="Include" />
